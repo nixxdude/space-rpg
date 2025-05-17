@@ -1,6 +1,16 @@
-def main():
-    print("Hello from space-rpg!")
+main_menu_message = """
++----------------------------------------------------+
+|                      SPACE RPG                     |
+| Written by jumperc1                                |
+| Github repo: https://github.com/nixxdude/space-rpg |
++----------------------------------------------------+
+|                     [1] Play                       |
+|                   [2] Credits                      |
+|                     [3] Quit                       |
++----------------------------------------------------+
+"""
 
+def main_menu():
+  print(main_menu_message)
 
-if __name__ == "__main__":
-    main()
+main_menu()
